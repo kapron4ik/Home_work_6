@@ -1,0 +1,115 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home_work_6</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="header">
+		<label for="State">Contact Manager</label>
+				<select id="State">
+					<option>More Action</option>
+					<option>Пункт 1</option>
+					<option>Пункт 2</option>
+				</select>
+	</div>
+	<div class="main">
+		<div class="main_left">
+			<form>
+				<p>
+					<label for="first-name">First name<span class="star">*</span></label>
+					<input type="text" name="first-name" id="first-name">
+				</p>
+				<p>
+					<label for="last_name">Last name<span class="star">*</span></label>
+					<input placeholder="" type="text" name="last_name" id="last_name">
+				</p>
+				<p>
+					<label>Adress</label>
+					<textarea name="adress"></textarea>
+				</p>
+				<p>
+					<label for="city">City</label>
+					<input placeholder="" type="text" name="city" id="city">	
+				</p>
+				<p>
+					<label>State</label>
+					<select>
+						<option>-Select-</option>
+						<option>Пункт 1</option>
+						<option>Пункт 2</option>
+					</select>
+				</p>
+				<p>
+					<label for="zip">Zip</label>
+					<input placeholder="" type="text" name="zip" id="zip">
+				</p>
+				<p class="width100">
+					<label for="home_phone">Home phone</label>
+					<input placeholder="" type="text" name="home_phone" id="home_phone">
+				</p>
+				<p>
+					<label for="work_phone">Work phone<span class="star">*</span></label>
+					<input placeholder="" type="text" name="work_phone" id="work_phone">
+				</p>
+				<p class="width100">
+					<label for="fax_number">Fax number</label>
+					<input placeholder="" type="text" name="fax_number" id="fax_number">
+				</p>
+				<div class="web_site">
+					<span class="name_web">Web site</span>
+					<div>
+						<span>URL:</span>
+						<input placeholder="" type="text" name="url" id="url">
+						<br>
+						<span>Link Name:</span>
+						<input placeholder="" type="text" name="link_name" id="link_name">
+					</div>
+				</div>				
+				<p>
+					<label for="email_adress">Email Adress<span class="star">*</span></label>
+					<input placeholder="" type="text" name="email_adress" id="email_adress">	
+				</p>
+		</div>
+		<div class="main_right">
+				<div class="best_time">
+					<span>Wen is the best time to contact you?</span>
+					<div class="radio1">
+						<input type="radio" name="best_time" value="Morning">
+						<span>Morning</span>
+						<br>
+						<input type="radio" name="best_time" value="Afternoon">
+						<span>Afternoon</span>
+						<br>
+						<input type="radio" name="best_time" value="Evening">
+						<span>Evening</span>
+					</div>
+				</div>
+				<div class="best_way">
+					<span>What is the best way to contact you?</span>
+					<div class="radio2">						
+						<input type="radio" name="best_way" value="Phone">
+						<span>Phone</span>
+						<br>
+						<input type="radio" name="best_way" value="Email">
+						<span>Email</span>
+						<br>
+						<input type="radio" name="best_way" value="Fax">
+						<span>Fax</span>
+					</div>
+				</div>
+				<div class="message">
+					<label>Message</label>
+					<textarea name="message"></textarea>	
+				</div>
+		</div>
+	</div>
+		<div class="button">
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</form>
+		</div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+body {
+	max-width: 880px;
+	border:1px solid #90bd6b;
+	margin: 1px auto 3px; 
+	font-family: arial;
+	font-size: 12px;
+}
+
+.star{
+	color: red;
+}
+
+select {
+	font-size: 12px;
+
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	width: 100%;
+	background: #c1eb9f; 
+	border-bottom: 1px solid #91ba6f;
+}
+
+.header label{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	font-weight: 700;
+}
+
+.header select{
+	background: transparent;
+	border:none;
+	margin-left:10px;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+}
+.main_left {
+	width: 440px;
+}
+
+.main_left p {
+	margin-top: 10px;
+}
+
+.main_left label {
+	width:190px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding-left:10px;
+    font-weight: 700;
+}
+.main_left input {
+	width:196px;
+}
+
+.width100 input {
+	width:96px;
+}
+
+.web_site{
+	margin-top: 10px;
+	display: flex;
+}
+
+.name_web{
+	margin-left: 10px;
+	display: block;
+	width: 190px;
+	font-weight: 700;
+}
+
+.web_site div span{
+	display: inline-block;
+	width: 77px;
+	margin-top: 4px;
+}
+
+.web_site input {
+	width:136px;
+}
+
+.main_left select{
+	width: 205px;
+}
+
+textarea {
+	width:194px;
+	height: 94px;
+}
+
+.main_right{
+	width: 440px;
+}
+
+.best_time {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.best_way {
+	display: flex;
+	justify-content: space-between;
+}
+
+.best_time span, .best_way span {
+	display: inline-block;
+	width: 185px;
+	font-weight: 700;
+}
+
+.radio1 span, .radio2 span {
+	width: 200px;
+	display: auto;
+	font-weight: 400;
+}
+
+.message {
+	margin-top: 20px;
+}
+
+.message label {
+	display: inline-block;
+	width: 210px;
+	font-weight: 700;
+}
+
+.message textarea {
+	vertical-align: top;
+}
+
+.button {
+	margin-top: 5px;
+	border-top: 1px solid #c6dff5;
+	background-color: #e3e3e3;
+	display: flex;
+	justify-content: center;
+}
+
+.button input{
+	margin: 5px 4px; 
+	width: 86px;
+	background-color: #91ba6f;
+	border: 1px solid #7aa359;
+}
+
