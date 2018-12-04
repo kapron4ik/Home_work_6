@@ -15,16 +15,16 @@
 					<option>Пункт 2</option>
 				</select>
 	</div>
-	<div class="main">
-		<div class="main_left">
-			<form>
+	<form>
+		<div class="main">
+			<div class="main_left">
 				<p>
 					<label for="first-name">First name<span class="star">*</span></label>
-					<input type="text" name="first-name" id="first-name">
+					<input type="text" name="first-name" id="first-name" required="first-name">
 				</p>
 				<p>
 					<label for="last_name">Last name<span class="star">*</span></label>
-					<input placeholder="" type="text" name="last_name" id="last_name">
+					<input placeholder="" type="text" name="last_name" id="last_name" required="last_name">
 				</p>
 				<p>
 					<label>Adress</label>
@@ -48,15 +48,15 @@
 				</p>
 				<p class="width100">
 					<label for="home_phone">Home phone</label>
-					<input placeholder="" type="text" name="home_phone" id="home_phone">
+					<input placeholder="" type="tel" name="home_phone" id="home_phone" pattern="[0-9]{10}">
 				</p>
 				<p>
 					<label for="work_phone">Work phone<span class="star">*</span></label>
-					<input placeholder="" type="text" name="work_phone" id="work_phone">
+					<input placeholder="" type="tel" name="work_phone" id="work_phone" required="work_phone" pattern="[0-9]{10}">
 				</p>
 				<p class="width100">
 					<label for="fax_number">Fax number</label>
-					<input placeholder="" type="text" name="fax_number" id="fax_number">
+					<input placeholder="" type="tel" name="fax_number" id="fax_number" pattern="[0-9]{10}">
 				</p>
 				<div class="web_site">
 					<span class="name_web">Web site</span>
@@ -70,10 +70,10 @@
 				</div>				
 				<p>
 					<label for="email_adress">Email Adress<span class="star">*</span></label>
-					<input placeholder="" type="text" name="email_adress" id="email_adress">	
+					<input placeholder="" type="email" name="email_adress" id="email_adress" required="email_adress">	
 				</p>
-		</div>
-		<div class="main_right">
+			</div>
+			<div class="main_right">
 				<div class="best_time">
 					<span>Wen is the best time to contact you?</span>
 					<div class="radio1">
@@ -104,12 +104,12 @@
 					<label>Message</label>
 					<textarea name="message"></textarea>	
 				</div>
+			</div>
 		</div>
-	</div>
 		<div class="button">
 				<input type="submit" value="Submit">
-				<input type="reset" value="Reset">
-			</form>
+				<input type="reset" value="Reset">		
 		</div>
+	</form>
 </body>
 </html>
